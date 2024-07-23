@@ -4,7 +4,7 @@ import wikipedia
 from aiogram import Bot, Dispatcher, executor, types
 
 API_TOKEN = ''
-wikipedia.set_lang('eng')
+wikipedia.set_lang('en')
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
